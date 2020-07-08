@@ -1,0 +1,43 @@
+.hero-area {
+    padding-top: 210px;
+    padding-bottom: 326px;
+    position: relative;
+
+    @media #{$md} {
+        padding-top: 170px;
+        padding-bottom: 280px;
+    }
+    @media #{$xs} {
+        padding-top: 170px;
+        padding-bottom: 280px;
+    }
+
+    img {
+        position: absolute;
+
+        @media #{$lg} {
+            bottom: 50px;
+        }
+        @media #{$md} {
+            bottom: 50px;
+        }
+        @media #{$xs} {
+            bottom: 50px;
+        }
+    }
+
+
+    .hero-content {
+
+        h2 {
+            font-size: 65px;
+            line-height: 75px;
+            font-weight: 900;
+
+            @media #{$xs} {
+                font-size: 45px;
+                line-height: 55px;
+            }
+        }
+    }
+}

@@ -1,0 +1,91 @@
+
+.overview-area {
+
+    background: $blue;
+
+
+    .overview-form-wrapper {
+
+        form {
+
+            input,
+            label,
+            select {
+                width: 100%;
+                margin-bottom: 35px;
+            }
+
+            label {
+                color: $white;
+                font-size: 18px;
+                margin-bottom: 15px;
+            }
+
+            input {
+                border: 1px solid $white;
+                background: rgba($white, .11);
+                border-radius: 5px;
+                height: 50px;
+                padding: 0 30px;
+                color: $white;
+            }
+
+            .nice-select {
+                width: 100%;
+                background: rgba($white, .11);
+                border: 1px solid $white;
+                border-radius: 5px;
+                color: $body-color;
+                margin-bottom: 35px;
+
+                &::after {
+                    border-color: $white;
+                }
+
+                .current {
+                    color: $white;
+                }
+            }
+
+            .checkbox-form {
+                align-items: center;
+
+                input {
+                    width: auto;
+                    margin-bottom: 30px;
+                    height: auto;
+                }
+                label {
+                    width: auto;
+                    margin-bottom: 30px;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+}
+
+.map-menu {
+    margin-bottom: 20px;
+    
+    a {
+        font-size: 16px;
+        color: $body-color;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 7px 10px;
+        border: 1px solid $border-color;
+
+        span {
+            width: 30px;
+            margin-left: 10px;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+}
